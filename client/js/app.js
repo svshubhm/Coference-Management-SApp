@@ -53,14 +53,14 @@ function showSessionDetails(sessionId) {
                     '<div class="card">' +
                         '<ul class="table-view">' +
                             '<li class="table-view-cell">' +
-                                '<h4>' + session.Session__r.Name + '</h4>' +
-                                '<p>' + (session.Session__r.Session_Date__c || 'No time yet')+ '</p>' +
+                                '<h4>' + session.svpractice__Session__r.Name + '</h4>' +
+                                '<p>' + (session.svpractice__Session__r.Session_Date__c || 'No time yet')+ '</p>' +
                             '</li>' +
                             '<li class="table-view-cell">Speaker: ' +
-                                session.Speaker__r.First_Name__c +
+                                session.svpractice__Speaker__r.First_Name__c +
                             '</li>' +
                             '<li class="table-view-cell">' +
-                                (session.Session__r.Description__c || 'No description yet') +
+                                (session.svpractice__Session__r.Description__c || 'No description yet') +
                             '</li>' +
                         '</ul>' +
                     '</div>' +
