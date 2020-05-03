@@ -5,9 +5,9 @@ function getSessionList(success, error) {
 
 function getSessionDetails(sessionId, success, error) {
   var soql = "SELECT svpractice__Session__r.Name, " +
-  "svpractice__Session__r.Session_Date__c, " +
-  "svpractice__Speaker__r.First_Name__c, " +
-  "svpractice__Speaker__r.Last_Name__c " +
+  "svpractice__Session__r.svpractice__Session_Date__c, " +
+  "svpractice__Speaker__r.svpractice__First_Name__c, " +
+  "svpractice__Speaker__r.svpractice__Last_Name__c " +
   "FROM svpractice__Session_Speaker__c " +
   "WHERE svpractice__Session__r.Id = '" + sessionId + "'";
   force.query(soql, success, error);
