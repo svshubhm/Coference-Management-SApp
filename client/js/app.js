@@ -4,7 +4,7 @@ function getSessionList(success, error) {
 }
 
 function getSessionDetails(sessionId, success, error) {
-  var soql = "SELECT Session__r.Name, " +
+  var soql = "SELECT vpractice__Session__r.Name, " +
   "svpractice__Session__r.Session_Date__c, " +
   "svpractice__Speaker__r.First_Name__c, " +
   "svpractice__Speaker__r.Last_Name__c " +
