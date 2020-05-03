@@ -19,7 +19,7 @@ function showSessionList() {
             var sessions = data.records,
                 html = '';
             for (var i=0; i<sessions.length; i++) {
-                html += '<li class="table-view-cell"><a href="#sessions/'+ sessions[i].Session__r.Id +'">' + sessions[i].Session__r.Name + '</a></li>';
+                html += '<li class="table-view-cell"><a href="#sessions/'+ sessions[i].svpractice__Session__r.Id +'">' + sessions[i].svpractice__Session__r.Name + '</a></li>';
             }
             html =
                 '<div class="page">' +
