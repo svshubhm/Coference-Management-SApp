@@ -1,0 +1,10 @@
+{
+    "name": "Conference-Management-SApp",
+    "description": "salesforce app to practice concepts and get hands on Heroku platform ",
+    "repository": "https://github.com/svshubhm/Coference-Management-SApp",
+    "logo":"",
+    "keywords": "[salesforce,node,heroku]",
+    "env": {
+        "APP_ID": ""
+      }
+}
