@@ -15,6 +15,6 @@ This app shows the data information about the speakers and sessions.
 ....................................Work in progress...................................................
 comming soon....
 
-Package installation link for metadata setup. 
-dynamic namespace tweak
-more integrations.
+ 1.Package installation link for metadata setup. 
+ 2.dynamic namespace tweak
+
